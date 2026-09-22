@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>EVCharge – Tietosuojakäytäntö</title>
+
+    <meta name="description"
+          content="EVCharge-sovelluksen tietosuojakäytäntö.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f4f7f9;
+            color: #1f2933;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #123c69;
+            color: white;
+            padding: 45px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0 0 10px;
+            font-size: 2.2rem;
+        }
+
+        header p {
+            margin: 0;
+            opacity: 0.9;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .content {
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            color: #123c69;
+            margin-top: 35px;
+            margin-bottom: 12px;
+        }
+
+        h2:first-child {
+            margin-top: 0;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .info-box {
+            background: #eef6ff;
+            border-left: 5px solid #1976d2;
+            padding: 18px 20px;
+            margin: 25px 0;
+            border-radius: 6px;
+        }
+
+        .contact {
+            background: #f4f7f9;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #667085;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                padding: 35px 15px;
+            }
+
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            main {
+                margin: 20px auto;
+                padding: 0 12px;
+            }
+
+            .content {
+                padding: 25px 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>EVCharge</h1>
+    <p>Tietosuojakäytäntö</p>
+</header>
+
+<main>
+    <div class="content">
+
+        <p>
+            <strong>Viimeksi päivitetty:</strong> 22.9.2026
+        </p>
+
+        <div class="info-box">
+            EVCharge on sähköauton latausajan ja latauksen
+            kustannusten arviointiin tarkoitettu sovellus.
+            Sovellus on suunniteltu siten, että laskentaan tarvittavia
+            tietoja voidaan käsitellä käyttäjän omalla laitteella.
+        </div>
+
+        <h2>1. Rekisterinpitäjä</h2>
+
+        <p>
+            EVCharge-sovelluksen rekisterinpitäjä:
+        </p>
+
+        <div class="contact">
+            <strong>Sami Palomäki</strong><br>
+            Sähköposti:
+            <strong>sami.palomaki@hotmail.com</strong>
+        </div>
+
+        <h2>2. Mitä henkilötietoja EVCharge kerää?</h2>
+
+        <p>
+            EVCharge ei lähtökohtaisesti kerää tai tallenna
+            käyttäjän henkilötietoja.
+        </p>
+
+        <p>
+            Sovellus ei vaadi käyttäjätiliä eikä käyttäjän tarvitse
+            antaa sovellukselle esimerkiksi:
+        </p>
+
+        <ul>
+            <li>nimeään</li>
+            <li>sähköpostiosoitettaan</li>
+            <li>puhelinnumeroaan</li>
+            <li>kotiosoitettaan</li>
+            <li>henkilötunnustaan</li>
+            <li>auton rekisterinumeroa</li>
+            <li>auton VIN-numeroa</li>
+            <li>sijaintitietoja.</li>
+        </ul>
+
+        <h2>3. Sovellukseen syötetyt tiedot</h2>
+
+        <p>
+            EVCharge voi käsitellä käyttäjän itse sovellukseen
+            syöttämiä tietoja laskelmien tekemiseksi.
+        </p>
+
+        <p>Näitä voivat olla esimerkiksi:</p>
+
+        <ul>
+            <li>sähköauton akun kapasiteetti (kWh)</li>
+            <li>akun nykyinen varaustaso (%)</li>
+            <li>tavoitevaraustaso (%)</li>
+            <li>latausteho (kW)</li>
+            <li>sähkön hinta (snt/kWh)</li>
+            <li>latauksen arvioitu kesto</li>
+            <li>latauksen arvioitu hinta.</li>
+        </ul>
+
+        <p>
+            Näitä tietoja käytetään sovelluksen tarjoamien
+            laskelmien tekemiseen.
+        </p>
+
+        <p>
+            Ellei sovelluksessa erikseen ilmoiteta muuta, näitä
+            tietoja ei lähetetä sovelluksen ylläpitäjälle.
+        </p>
+
+        <h2>4. Tietojen tallentaminen</h2>
+
+        <p>
+            EVCharge on suunniteltu siten, että käyttäjän
+            syöttämiä laskentatietoja voidaan käsitellä paikallisesti
+            käyttäjän laitteella.
+        </p>
+
+        <p>
+            Jos sovellukseen myöhemmin lisätään ominaisuus, joka
+            tallentaa tai lähettää käyttäjän tietoja palvelimelle,
+            tästä ilmoitetaan käyttäjälle ja tietosuojakäytäntö
+            päivitetään vastaavasti.
+        </p>
+
+        <h2>5. Sijaintitiedot</h2>
+
+        <p>
+            EVCharge ei lähtökohtaisesti kerää käyttäjän
+            sijaintitietoja.
+        </p>
+
+        <p>
+            Jos sovellukseen lisätään myöhemmin esimerkiksi
+            latausasemien etsimiseen perustuva sijaintiominaisuus,
+            käyttäjälle ilmoitetaan erikseen sijaintitietojen
+            käytöstä ja tarvittavista käyttöoikeuksista.
+        </p>
+
+        <h2>6. Tietojen luovuttaminen kolmansille osapuolille</h2>
+
+        <p>
+            EVCharge ei lähtökohtaisesti luovuta käyttäjän
+            sovellukseen syöttämiä tietoja kolmansille osapuolille.
+        </p>
+
+        <p>
+            Sovellus ei myöskään myy käyttäjän henkilötietoja tai
+            muita käyttäjän syöttämiä tietoja mainostajille.
+        </p>
+
+        <h2>7. Analytiikka ja mainokset</h2>
+
+        <p>
+            EVCharge ei käytä käyttäjän henkilökohtaisia tietoja
+            kohdennettuun mainontaan.
+        </p>
+
+        <p>
+            Jos sovellukseen myöhemmin lisätään analytiikka-,
+            mainonta- tai muita kolmannen osapuolen palveluita,
+            niiden mahdollisesti keräämistä tiedoista ilmoitetaan
+            tässä tietosuojakäytännössä.
+        </p>
+
+        <h2>8. Tietoturva</h2>
+
+        <p>
+            EVCharge pyrkii suojaamaan käyttäjän tiedot
+            asianmukaisin teknisin ja organisatorisin toimenpitein.
+        </p>
+
+        <p>
+            Koska sovelluksen laskentatiedot käsitellään
+            lähtökohtaisesti käyttäjän omalla laitteella, tietoja
+            ei tarvitse siirtää sovelluksen ylläpitäjän palvelimelle
+            laskentaa varten.
+        </p>
+
+        <h2>9. Lasten henkilötiedot</h2>
+
+        <p>
+            EVCharge ei ole erityisesti suunnattu lapsille eikä
+            sovellus tarkoituksellisesti kerää lasten henkilötietoja.
+        </p>
+
+        <h2>10. Muutokset tietosuojakäytäntöön</h2>
+
+        <p>
+            Tätä tietosuojakäytäntöä voidaan päivittää, jos
+            sovelluksen toiminnallisuudet tai tietojen käsittelytavat
+            muuttuvat.
+        </p>
+
+        <p>
+            Päivitetty tietosuojakäytäntö julkaistaan sovelluksessa
+            tai sen yhteydessä. Päivityksen yhteydessä ilmoitetaan
+            myös päivämäärä, jolloin käytäntö on viimeksi päivitetty.
+        </p>
+
+        <h2>11. Yhteydenotot</h2>
+
+        <p>
+            Jos sinulla on kysyttävää EVCharge-sovelluksen
+            tietosuojasta tai tietojen käsittelystä, voit ottaa
+            yhteyttä:
+        </p>
+
+        <div class="contact">
+            <strong>Sähköposti:</strong>
+            sami.palomaki@hotmail.com<br><br>
+
+            <strong>Rekisterinpitäjä:</strong>
+            Sami Palomäki
+        </div>
+
+    </div>
+</main>
+
+<footer>
+    &copy; 2026 EVCharge. Kaikki oikeudet pidätetään.
+</footer>
+
+</body>
+</html>

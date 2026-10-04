@@ -128,14 +128,15 @@
     <div class="content">
 
         <p>
-            <strong>Viimeksi päivitetty:</strong> 22.9.2026
+            <strong>Viimeksi päivitetty:</strong> 5.10.2026
         </p>
 
         <div class="info-box">
             EVCharge on sähköauton latausajan ja latauksen
             kustannusten arviointiin tarkoitettu sovellus.
             Sovellus on suunniteltu siten, että laskentaan tarvittavia
-            tietoja voidaan käsitellä käyttäjän omalla laitteella.
+            tietoja käsitellään mahdollisuuksien mukaan käyttäjän
+            omalla laitteella.
         </div>
 
         <h2>1. Rekisterinpitäjä</h2>
@@ -154,7 +155,7 @@
 
         <p>
             EVCharge ei lähtökohtaisesti kerää tai tallenna
-            käyttäjän henkilötietoja.
+            käyttäjän henkilötietoja palvelimelle.
         </p>
 
         <p>
@@ -180,7 +181,9 @@
             syöttämiä tietoja laskelmien tekemiseksi.
         </p>
 
-        <p>Näitä voivat olla esimerkiksi:</p>
+        <p>
+            Näitä voivat olla esimerkiksi:
+        </p>
 
         <ul>
             <li>sähköauton akun kapasiteetti (kWh)</li>
@@ -193,35 +196,82 @@
         </ul>
 
         <p>
-            Näitä tietoja käytetään sovelluksen tarjoamien
-            laskelmien tekemiseen.
+            Sovellukseen syötetyt tiedot käsitellään ensisijaisesti
+            käyttäjän omalla laitteella.
+        </p>
+
+        <h2>4. Sähkön hintojen tallentaminen</h2>
+
+        <p>
+            EVCharge tallentaa käyttäjän sovellukseen lisäämiä
+            sähkön hintatietoja laitteen paikalliseen muistiin.
+            Tämän tarkoituksena on mahdollistaa hintatietojen
+            tarkasteleminen myöhemmin sovelluksen hintahistoriassa
+            sekä tietojen käyttäminen sovelluksen laskelmissa.
         </p>
 
         <p>
-            Ellei sovelluksessa erikseen ilmoiteta muuta, näitä
-            tietoja ei lähetetä sovelluksen ylläpitäjälle.
+            Paikallisesti tallennettavia tietoja voivat olla esimerkiksi:
         </p>
 
-        <h2>4. Tietojen tallentaminen</h2>
+        <ul>
+            <li>sähkön hinnan päivämäärä</li>
+            <li>sähkön määrä</li>
+            <li>sähkön hinta</li>
+            <li>käyttäjän itse lisäämät hintatiedot.</li>
+        </ul>
 
         <p>
-            EVCharge on suunniteltu siten, että käyttäjän
-            syöttämiä laskentatietoja voidaan käsitellä paikallisesti
-            käyttäjän laitteella.
+            Nämä tiedot tallennetaan käyttäjän omalle laitteelle.
+            Tietoja ei tämän toiminnon yhteydessä lähetetä
+            EVCharge-sovelluksen ylläpitäjälle eikä tallenneta
+            ylläpitäjän palvelimelle.
+        </p>
+
+        <h2>5. Tietojen tallentaminen ja poistaminen</h2>
+
+        <p>
+            EVCharge tallentaa tiettyjä sovelluksen toiminnan
+            kannalta tarpeellisia tietoja käyttäjän laitteen
+            paikalliseen muistiin.
+        </p>
+
+        <p>
+            Paikallisesti voidaan tallentaa esimerkiksi käyttäjän
+            lisäämiä sähkön hintatietoja ja sovelluksen laskentaan
+            liittyviä asetuksia.
+        </p>
+
+        <p>
+            Paikallisesti tallennetut tiedot pysyvät käyttäjän
+            omalla laitteella, eikä EVCharge-sovellus lähetä niitä
+            rekisterinpitäjälle tämän toiminnon yhteydessä.
+        </p>
+
+        <p>
+            Käyttäjä voi poistaa sovellukseen tallennettuja tietoja
+            sovelluksen tarjoamilla poistotoiminnoilla, mikäli
+            tällainen toiminto on kyseiselle tiedolle käytettävissä.
+        </p>
+
+        <p>
+            Sovelluksen poistaminen laitteelta voi myös poistaa
+            sovelluksen paikallisesti tallentamat tiedot
+            käyttöjärjestelmän toiminnasta riippuen.
         </p>
 
         <p>
             Jos sovellukseen myöhemmin lisätään ominaisuus, joka
-            tallentaa tai lähettää käyttäjän tietoja palvelimelle,
-            tästä ilmoitetaan käyttäjälle ja tietosuojakäytäntö
-            päivitetään vastaavasti.
+            tallentaa tai lähettää käyttäjän tietoja palvelimelle
+            tai ulkopuoliselle palveluntarjoajalle, tästä tietojen
+            käsittelystä ilmoitetaan käyttäjälle ja tätä
+            tietosuojakäytäntöä päivitetään vastaavasti.
         </p>
 
-        <h2>5. Sijaintitiedot</h2>
+        <h2>6. Sijaintitiedot</h2>
 
         <p>
-            EVCharge ei lähtökohtaisesti kerää käyttäjän
-            sijaintitietoja.
+            EVCharge ei kerää käyttäjän sijaintitietoja.
         </p>
 
         <p>
@@ -231,7 +281,7 @@
             käytöstä ja tarvittavista käyttöoikeuksista.
         </p>
 
-        <h2>6. Tietojen luovuttaminen kolmansille osapuolille</h2>
+        <h2>7. Tietojen luovuttaminen kolmansille osapuolille</h2>
 
         <p>
             EVCharge ei lähtökohtaisesti luovuta käyttäjän
@@ -239,15 +289,27 @@
         </p>
 
         <p>
-            Sovellus ei myöskään myy käyttäjän henkilötietoja tai
-            muita käyttäjän syöttämiä tietoja mainostajille.
+            Sovelluksen paikallisesti tallentamia sähkön
+            hintatietoja ei lähetetä kolmansille osapuolille
+            tämän toiminnon yhteydessä.
         </p>
 
-        <h2>7. Analytiikka ja mainokset</h2>
+        <p>
+            EVCharge ei myy käyttäjän henkilötietoja tai
+            sovellukseen syöttämiä tietoja mainostajille.
+        </p>
+
+        <h2>8. Analytiikka ja mainokset</h2>
 
         <p>
             EVCharge ei käytä käyttäjän henkilökohtaisia tietoja
             kohdennettuun mainontaan.
+        </p>
+
+        <p>
+            Sovellus ei tällä hetkellä käytä käyttäjän paikallisesti
+            tallentamia sähkön hintatietoja mainontaan tai käyttäjän
+            profilointiin.
         </p>
 
         <p>
@@ -257,7 +319,7 @@
             tässä tietosuojakäytännössä.
         </p>
 
-        <h2>8. Tietoturva</h2>
+        <h2>9. Tietoturva</h2>
 
         <p>
             EVCharge pyrkii suojaamaan käyttäjän tiedot
@@ -265,34 +327,42 @@
         </p>
 
         <p>
-            Koska sovelluksen laskentatiedot käsitellään
-            lähtökohtaisesti käyttäjän omalla laitteella, tietoja
-            ei tarvitse siirtää sovelluksen ylläpitäjän palvelimelle
-            laskentaa varten.
+            Koska sovelluksen laskenta- ja hintatiedot käsitellään
+            ja tallennetaan lähtökohtaisesti käyttäjän omalla
+            laitteella, niitä ei tarvitse siirtää sovelluksen
+            ylläpitäjän palvelimelle laskentaa tai hintahistorian
+            näyttämistä varten.
         </p>
 
-        <h2>9. Lasten henkilötiedot</h2>
+        <p>
+            Käyttäjän tulee kuitenkin huomioida, että laitteen
+            yleinen tietoturva, kuten laitteen lukitus ja
+            käyttöjärjestelmän suojaus, vaikuttaa myös laitteelle
+            paikallisesti tallennettujen tietojen suojaamiseen.
+        </p>
+
+        <h2>10. Lasten henkilötiedot</h2>
 
         <p>
             EVCharge ei ole erityisesti suunnattu lapsille eikä
             sovellus tarkoituksellisesti kerää lasten henkilötietoja.
         </p>
 
-        <h2>10. Muutokset tietosuojakäytäntöön</h2>
+        <h2>11. Muutokset tietosuojakäytäntöön</h2>
 
         <p>
             Tätä tietosuojakäytäntöä voidaan päivittää, jos
-            sovelluksen toiminnallisuudet tai tietojen käsittelytavat
-            muuttuvat.
+            sovelluksen toiminnallisuudet tai tietojen
+            käsittelytavat muuttuvat.
         </p>
 
         <p>
             Päivitetty tietosuojakäytäntö julkaistaan sovelluksessa
             tai sen yhteydessä. Päivityksen yhteydessä ilmoitetaan
-            myös päivämäärä, jolloin käytäntö on viimeksi päivitetty.
+            päivämäärä, jolloin käytäntö on viimeksi päivitetty.
         </p>
 
-        <h2>11. Yhteydenotot</h2>
+        <h2>12. Yhteydenotot</h2>
 
         <p>
             Jos sinulla on kysyttävää EVCharge-sovelluksen
